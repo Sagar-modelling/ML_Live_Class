@@ -15,6 +15,9 @@ conda create -n sagar python==3.8 -y
 conda activate sagar
 pip freeze > requirements.txt
 pip install -r requirements.txt
+git remote -v #shows the remote repository URL
+git pull #to bring changes from remote repository and merge into local branch
+git branch -M <branch_name> # to rename current branch
 git add . && git commit -m "docstring updated" && git push origin main
 git checkout "committed id no" (to go to specific version)
 pip install notebook #to install jupyter notebook in the vs code
