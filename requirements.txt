@@ -4,3 +4,4 @@ pandas
 seaborn
 joblib
 notebook
+seaborn
