@@ -5,3 +5,4 @@ seaborn
 joblib
 notebook
 seaborn
+sklearn
