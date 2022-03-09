@@ -1,8 +1,7 @@
 # ML_Live_Class
 Machine Learning Datasets Implementation
 
-# Commands used
-
+# Commands Used
 ```bash
 conda env list
 mkdir utils
@@ -16,6 +15,9 @@ conda activate sagar
 pip freeze > requirements.txt
 pip install -r requirements.txt
 git add . && git commit -m "docstring updated" && git push origin main
+git remote -v #shows the remote repository URL
+git pull #to bring changes from remote repository and merge into local branch
+git branch -M # to rename current branch
 git checkout "committed id no" (to go to specific version)
 pip install notebook #to install jupyter notebook in the vs code
 jupyter notebook
