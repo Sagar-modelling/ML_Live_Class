@@ -13,12 +13,12 @@ touch requirements.txt
 conda create -n sagar python==3.8 -y
 conda list
 pip list
-pip uninstall <package name> -y
-conda remove --name testenv --all
-conda remove <package name> -y
 conda activate sagar
 pip freeze > requirements.txt
 pip install -r requirements.txt
+pip uninstall <package name> -y
+conda remove --name testenv --all
+conda remove <package name> -y
 git add . && git commit -m "docstring updated" && git push origin main
 git remote -v #shows the remote repository URL
 git pull #to bring changes from remote repository and merge into local branch
