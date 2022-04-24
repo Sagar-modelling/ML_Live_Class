@@ -11,6 +11,10 @@ touch utils/all_utils.py (keep all helper functions in all_utils folder)
 from utils.model import class
 touch requirements.txt
 conda create -n sagar python==3.8 -y
+conda list
+pip list
+pip uninstall <package name> -y
+conda remove <package name> -y
 conda activate sagar
 pip freeze > requirements.txt
 pip install -r requirements.txt
