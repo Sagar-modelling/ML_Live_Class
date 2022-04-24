@@ -30,4 +30,6 @@ cp sample\ notebook/demo.ipynb .
 #to see utils as a pckage, just type python in the terminal
 import utils
 utils.__version__ #check utils package version
+conda env export > environment.yml # To share the existing environment with the collabrators
+conda env create -f environment.yml
 ```
