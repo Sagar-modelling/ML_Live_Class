@@ -14,6 +14,7 @@ conda create -n sagar python==3.8 -y
 conda list
 pip list
 pip uninstall <package name> -y
+conda remove --name testenv --all
 conda remove <package name> -y
 conda activate sagar
 pip freeze > requirements.txt
